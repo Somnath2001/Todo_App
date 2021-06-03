@@ -1,0 +1,72 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  background-color: rgba(134, 109, 158, 0.199);
+  
+
+}
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(58, 13, 109);
+}
+form {
+  position: fixed;
+  bottom: 250px;
+  right: 30%;
+  left: 30%;
+  border-radius: 8px;
+  border: 2px solid rgb(66, 66, 180);
+  color: #000;
+  box-shadow: 0 2px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.items {
+  position: fixed;
+  top: 150px;
+  right: 30%;
+  left: 30%;
+  border-radius: 10px;
+
+}
+
+.form-group {
+  bottom:0px;
+}
+
+.completedTodo {
+  background-color: rgb(185, 148, 170);
+  text-decoration: line-through;
+}
+
+.designtodo {
+  background-color: rgb(160, 233, 199);
+  color: rgb(114, 4, 165);
+  margin: 1.5px;
+}
+
+.shift {
+ float: right; 
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+  position:fixed;
+  margin-top: 1px;
+  right: 30%;
+  left: 45%;
+  border-radius: 70px;
+  
+  color: #000;
+  box-shadow: 0 2px 4px 4px rgba(207, 24, 24, 0.5);
+}
+
+
